@@ -11,7 +11,6 @@ import sys
 # Complete the theLoveLetterMystery function below.
 def theLoveLetterMystery(s):
     length = len(s)
-    start = 0
     end = length-1
     count = 0
     for index in range(int(length/2)):
